@@ -1,0 +1,21 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rd dist /s /q&&npx babel src --out-dir dist "
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "njwt": "^1.0.0",
+    "secure-random": "^1.1.2",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
